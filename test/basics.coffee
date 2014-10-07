@@ -11,3 +11,11 @@ describe 'program basics', ->
     expect(program.resultString()).to.be 'hi'
     expect(program.results).to.eql [104, 105]
     expect(program.tape).to.eql [104, 105]
+
+  it 'can run "hello world"', ->
+    program = brainfuck([
+      '++++++++[>++++[>++>+++>+++>+<<<<-]>+>+>->>+[<]<-]>>.>'
+      '---.+++++++..+++.>>.<-.<.+++.------.--------.>>+.>++.'
+    ].join(''))
+    program.run()
+    expect(program.resultString()).to.be 'Hello World!\n'
