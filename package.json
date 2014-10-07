@@ -1,0 +1,24 @@
+{
+  "name": "brainfuck2000",
+  "version": "0.1.0",
+  "description": "brainfuck for the year 2000",
+  "author": "Evan Hahn <me@evanhahn.com> (http://evanhahn.com)",
+  "license": "MIT",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "keywords": [
+    "brainfuck",
+    "bf",
+    "interpreter"
+  ],
+  "devDependencies": {
+    "coffee-script": "^1.8.0",
+    "expect.js": "^0.3.1",
+    "mocha": "^1.21.4"
+  },
+  "dependencies": {
+    "lodash": "^2.4.1"
+  }
+}
