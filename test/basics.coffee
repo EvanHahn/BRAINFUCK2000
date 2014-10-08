@@ -12,6 +12,11 @@ describe 'program basics', ->
     expect(program.results).to.eql [104, 105]
     expect(program.tape).to.eql [104, 105]
 
+  it 'can run a simple program by specifying src as options', ->
+    program = brainfuck(src: ',+.>,+.')
+    program.run('gh')
+    expect(program.resultString()).to.be 'hi'
+
   it 'can run "hello world"', ->
     program = brainfuck([
       '++++++++[>++++[>++>+++>+++>+<<<<-]>+>+>->>+[<]<-]>>.>'
