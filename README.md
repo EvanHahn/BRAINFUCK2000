@@ -23,8 +23,9 @@ and then:
 ```js
 var program = brainfuck(',+.>,+.')
 program.run('gh')
-program.result    // 'hi'
-program.tape      // [104, 105]
+program.resultString()  // 'hi'
+program.result          // [104, 105]
+program.tape            // [104, 105]
 ```
 
 pow pow!
