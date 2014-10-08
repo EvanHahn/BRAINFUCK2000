@@ -6,13 +6,7 @@ brainfuck for the year 2000. made for the javascript.
 quick start
 -----------
 
-in the browser:
-
-```html
-<script src="brainfuck2000.js"></script>
-```
-
-in Node:
+in Node/Browserify/Webpack:
 
 ```js
 var brainfuck = require('brainfuck2000')
