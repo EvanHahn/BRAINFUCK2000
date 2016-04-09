@@ -6,6 +6,7 @@
   "license": "MIT",
   "main": "index.js",
   "scripts": {
+    "pretest": "standard",
     "test": "mocha"
   },
   "keywords": [
@@ -15,9 +16,17 @@
   ],
   "devDependencies": {
     "expect.js": "^0.3.1",
-    "mocha": "^1.21.4"
+    "mocha": "^1.21.4",
+    "standard": "^6.0.8"
   },
   "dependencies": {
     "lodash": "^2.4.1"
+  },
+  "standard": {
+    "globals": [
+      "describe",
+      "beforeEach",
+      "it"
+    ]
   }
 }
