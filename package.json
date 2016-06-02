@@ -23,9 +23,6 @@
     "mocha": "^2.5.3",
     "standard": "^7.1.1"
   },
-  "dependencies": {
-    "lodash": "^2.4.1"
-  },
   "standard": {
     "globals": [
       "describe",
