@@ -9,6 +9,10 @@
     "pretest": "standard",
     "test": "mocha"
   },
+  "repository": {
+    "type" : "git",
+    "url" : "https://github.com/EvanHahn/BRAINFUCK2000.git"
+  },
   "keywords": [
     "brainfuck",
     "bf",
